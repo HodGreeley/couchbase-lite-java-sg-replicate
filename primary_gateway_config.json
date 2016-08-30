@@ -1,0 +1,17 @@
+{
+  "log": ["*"],
+  "databases": {
+    "db": {
+      "server": "walrus:",
+      "users": { "GUEST": {"disabled": false, "admin_channels": ["*"] } }
+    }
+  },
+
+  "replications":[
+    {
+      "source": "db",
+      "target": "http://localhost:5985/db",
+      "continuous": true
+    }
+    ]
+}

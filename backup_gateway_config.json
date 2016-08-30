@@ -1,0 +1,12 @@
+{
+  "interface":":5984",
+  "adminInterface":":5985",
+
+  "log": ["*"],
+  "databases": {
+    "db": {
+      "server": "walrus:",
+      "users": { "GUEST": {"disabled": false, "admin_channels": ["*"] } }
+    }
+  }
+}
