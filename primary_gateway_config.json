@@ -13,5 +13,5 @@
       "target": "http://localhost:5985/db",
       "continuous": true
     }
-    ]
+  ]
 }
